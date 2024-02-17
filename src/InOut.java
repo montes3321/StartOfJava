@@ -21,6 +21,7 @@ public class InOut {
         int number = scanner.nextInt(); // HAS TO BE A NUMBER!
         System.out.println("You just typed " + number);
 
+        // scanner.next() before space (cin) not getline
         scanner.nextLine();
         String input = scanner.nextLine();
         System.out.println("You now just typed (String): " + input);
